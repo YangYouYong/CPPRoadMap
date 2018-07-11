@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00C8B6720EC6CE700EA9E07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00C8B6620EC6CE700EA9E07 /* main.cpp */; };
+		C0679DD020F5A16C0035F4CE /* libevent_extra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0679DCC20F5A16C0035F4CE /* libevent_extra.a */; };
+		C0679DD120F5A16C0035F4CE /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0679DCD20F5A16C0035F4CE /* libevent.a */; };
+		C0679DD220F5A16C0035F4CE /* libevent_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0679DCE20F5A16C0035F4CE /* libevent_core.a */; };
+		C0679DD320F5A16C0035F4CE /* libevent_pthreads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0679DCF20F5A16C0035F4CE /* libevent_pthreads.a */; };
+		C0679E0D20F5CEF60035F4CE /* hellowordtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0679E0B20F5CEF60035F4CE /* hellowordtest.cpp */; };
+		C0679E1020F5D1C70035F4CE /* httpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0679E0E20F5D1C70035F4CE /* httpserver.cpp */; };
+		C0679E1720F5D57D0035F4CE /* httpconnect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0679E1520F5D57D0035F4CE /* httpconnect.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C00C8B6120EC6CE700EA9E07 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C00C8B6320EC6CE700EA9E07 /* libevhtp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libevhtp; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00C8B6620EC6CE700EA9E07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0679DA620F5A0190035F4CE /* evrpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evrpc.h; sourceTree = "<group>"; };
+		C0679DA720F5A0190035F4CE /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		C0679DA820F5A0190035F4CE /* evutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evutil.h; sourceTree = "<group>"; };
+		C0679DAA20F5A0190035F4CE /* buffer_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer_compat.h; sourceTree = "<group>"; };
+		C0679DAB20F5A0190035F4CE /* rpc_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rpc_struct.h; sourceTree = "<group>"; };
+		C0679DAC20F5A0190035F4CE /* event-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "event-config.h"; sourceTree = "<group>"; };
+		C0679DAD20F5A0190035F4CE /* listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listener.h; sourceTree = "<group>"; };
+		C0679DAE20F5A0190035F4CE /* dns_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns_compat.h; sourceTree = "<group>"; };
+		C0679DAF20F5A0190035F4CE /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		C0679DB020F5A0190035F4CE /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		C0679DB120F5A0190035F4CE /* event_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event_compat.h; sourceTree = "<group>"; };
+		C0679DB220F5A0190035F4CE /* bufferevent_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufferevent_struct.h; sourceTree = "<group>"; };
+		C0679DB320F5A0190035F4CE /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		C0679DB420F5A0190035F4CE /* bufferevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufferevent.h; sourceTree = "<group>"; };
+		C0679DB520F5A0190035F4CE /* tag_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag_compat.h; sourceTree = "<group>"; };
+		C0679DB620F5A0190035F4CE /* http_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_struct.h; sourceTree = "<group>"; };
+		C0679DB720F5A0190035F4CE /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		C0679DB820F5A0190035F4CE /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		C0679DB920F5A0190035F4CE /* bufferevent_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufferevent_ssl.h; sourceTree = "<group>"; };
+		C0679DBA20F5A0190035F4CE /* keyvalq_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyvalq_struct.h; sourceTree = "<group>"; };
+		C0679DBB20F5A0190035F4CE /* http_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_compat.h; sourceTree = "<group>"; };
+		C0679DBC20F5A0190035F4CE /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		C0679DBD20F5A0190035F4CE /* rpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rpc.h; sourceTree = "<group>"; };
+		C0679DBE20F5A0190035F4CE /* rpc_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rpc_compat.h; sourceTree = "<group>"; };
+		C0679DBF20F5A0190035F4CE /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		C0679DC020F5A0190035F4CE /* dns_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns_struct.h; sourceTree = "<group>"; };
+		C0679DC120F5A0190035F4CE /* bufferevent_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufferevent_compat.h; sourceTree = "<group>"; };
+		C0679DC220F5A0190035F4CE /* event_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event_struct.h; sourceTree = "<group>"; };
+		C0679DC320F5A0190035F4CE /* evdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evdns.h; sourceTree = "<group>"; };
+		C0679DC420F5A0190035F4CE /* evhttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evhttp.h; sourceTree = "<group>"; };
+		C0679DCC20F5A16C0035F4CE /* libevent_extra.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_extra.a; sourceTree = "<group>"; };
+		C0679DCD20F5A16C0035F4CE /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent.a; sourceTree = "<group>"; };
+		C0679DCE20F5A16C0035F4CE /* libevent_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_core.a; sourceTree = "<group>"; };
+		C0679DCF20F5A16C0035F4CE /* libevent_pthreads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_pthreads.a; sourceTree = "<group>"; };
+		C0679E0B20F5CEF60035F4CE /* hellowordtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hellowordtest.cpp; sourceTree = "<group>"; };
+		C0679E0C20F5CEF60035F4CE /* hellowordtest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hellowordtest.hpp; sourceTree = "<group>"; };
+		C0679E0E20F5D1C70035F4CE /* httpserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = httpserver.cpp; sourceTree = "<group>"; };
+		C0679E0F20F5D1C70035F4CE /* httpserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = httpserver.hpp; sourceTree = "<group>"; };
+		C0679E1520F5D57D0035F4CE /* httpconnect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = httpconnect.cpp; sourceTree = "<group>"; };
+		C0679E1620F5D57D0035F4CE /* httpconnect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = httpconnect.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00C8B6020EC6CE700EA9E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0679DD120F5A16C0035F4CE /* libevent.a in Frameworks */,
+				C0679DD320F5A16C0035F4CE /* libevent_pthreads.a in Frameworks */,
+				C0679DD020F5A16C0035F4CE /* libevent_extra.a in Frameworks */,
+				C0679DD220F5A16C0035F4CE /* libevent_core.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00C8B5A20EC6CE700EA9E07 = {
+			isa = PBXGroup;
+			children = (
+				C00C8B6520EC6CE700EA9E07 /* libevhtp */,
+				C00C8B6420EC6CE700EA9E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00C8B6420EC6CE700EA9E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00C8B6320EC6CE700EA9E07 /* libevhtp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00C8B6520EC6CE700EA9E07 /* libevhtp */ = {
+			isa = PBXGroup;
+			children = (
+				C0679CB020F487F00035F4CE /* libevent */,
+				C00C8B6620EC6CE700EA9E07 /* main.cpp */,
+				C0679E0B20F5CEF60035F4CE /* hellowordtest.cpp */,
+				C0679E0C20F5CEF60035F4CE /* hellowordtest.hpp */,
+				C0679E0E20F5D1C70035F4CE /* httpserver.cpp */,
+				C0679E0F20F5D1C70035F4CE /* httpserver.hpp */,
+				C0679E1520F5D57D0035F4CE /* httpconnect.cpp */,
+				C0679E1620F5D57D0035F4CE /* httpconnect.hpp */,
+			);
+			path = libevhtp;
+			sourceTree = "<group>";
+		};
+		C0679CB020F487F00035F4CE /* libevent */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DC920F5A16C0035F4CE /* lib */,
+				C0679DA320F5A0190035F4CE /* include */,
+			);
+			path = libevent;
+			sourceTree = "<group>";
+		};
+		C0679DA320F5A0190035F4CE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DA420F5A0190035F4CE /* ios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C0679DA420F5A0190035F4CE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DA520F5A0190035F4CE /* libevent */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		C0679DA520F5A0190035F4CE /* libevent */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DA620F5A0190035F4CE /* evrpc.h */,
+				C0679DA720F5A0190035F4CE /* event.h */,
+				C0679DA820F5A0190035F4CE /* evutil.h */,
+				C0679DA920F5A0190035F4CE /* event2 */,
+				C0679DC320F5A0190035F4CE /* evdns.h */,
+				C0679DC420F5A0190035F4CE /* evhttp.h */,
+			);
+			path = libevent;
+			sourceTree = "<group>";
+		};
+		C0679DA920F5A0190035F4CE /* event2 */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DAA20F5A0190035F4CE /* buffer_compat.h */,
+				C0679DAB20F5A0190035F4CE /* rpc_struct.h */,
+				C0679DAC20F5A0190035F4CE /* event-config.h */,
+				C0679DAD20F5A0190035F4CE /* listener.h */,
+				C0679DAE20F5A0190035F4CE /* dns_compat.h */,
+				C0679DAF20F5A0190035F4CE /* tag.h */,
+				C0679DB020F5A0190035F4CE /* http.h */,
+				C0679DB120F5A0190035F4CE /* event_compat.h */,
+				C0679DB220F5A0190035F4CE /* bufferevent_struct.h */,
+				C0679DB320F5A0190035F4CE /* event.h */,
+				C0679DB420F5A0190035F4CE /* bufferevent.h */,
+				C0679DB520F5A0190035F4CE /* tag_compat.h */,
+				C0679DB620F5A0190035F4CE /* http_struct.h */,
+				C0679DB720F5A0190035F4CE /* buffer.h */,
+				C0679DB820F5A0190035F4CE /* thread.h */,
+				C0679DB920F5A0190035F4CE /* bufferevent_ssl.h */,
+				C0679DBA20F5A0190035F4CE /* keyvalq_struct.h */,
+				C0679DBB20F5A0190035F4CE /* http_compat.h */,
+				C0679DBC20F5A0190035F4CE /* util.h */,
+				C0679DBD20F5A0190035F4CE /* rpc.h */,
+				C0679DBE20F5A0190035F4CE /* rpc_compat.h */,
+				C0679DBF20F5A0190035F4CE /* dns.h */,
+				C0679DC020F5A0190035F4CE /* dns_struct.h */,
+				C0679DC120F5A0190035F4CE /* bufferevent_compat.h */,
+				C0679DC220F5A0190035F4CE /* event_struct.h */,
+			);
+			path = event2;
+			sourceTree = "<group>";
+		};
+		C0679DC920F5A16C0035F4CE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DCA20F5A16C0035F4CE /* ios */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C0679DCA20F5A16C0035F4CE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DCB20F5A16C0035F4CE /* libevent */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		C0679DCB20F5A16C0035F4CE /* libevent */ = {
+			isa = PBXGroup;
+			children = (
+				C0679DCC20F5A16C0035F4CE /* libevent_extra.a */,
+				C0679DCD20F5A16C0035F4CE /* libevent.a */,
+				C0679DCE20F5A16C0035F4CE /* libevent_core.a */,
+				C0679DCF20F5A16C0035F4CE /* libevent_pthreads.a */,
+			);
+			path = libevent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00C8B6220EC6CE700EA9E07 /* libevhtp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00C8B6A20EC6CE700EA9E07 /* Build configuration list for PBXNativeTarget "libevhtp" */;
+			buildPhases = (
+				C00C8B5F20EC6CE700EA9E07 /* Sources */,
+				C00C8B6020EC6CE700EA9E07 /* Frameworks */,
+				C00C8B6120EC6CE700EA9E07 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libevhtp;
+			productName = libevhtp;
+			productReference = C00C8B6320EC6CE700EA9E07 /* libevhtp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00C8B5B20EC6CE700EA9E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = vechain;
+				TargetAttributes = {
+					C00C8B6220EC6CE700EA9E07 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C00C8B5E20EC6CE700EA9E07 /* Build configuration list for PBXProject "libevhtp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C00C8B5A20EC6CE700EA9E07;
+			productRefGroup = C00C8B6420EC6CE700EA9E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00C8B6220EC6CE700EA9E07 /* libevhtp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00C8B5F20EC6CE700EA9E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0679E1020F5D1C70035F4CE /* httpserver.cpp in Sources */,
+				C0679E0D20F5CEF60035F4CE /* hellowordtest.cpp in Sources */,
+				C0679E1720F5D57D0035F4CE /* httpconnect.cpp in Sources */,
+				C00C8B6720EC6CE700EA9E07 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00C8B6820EC6CE700EA9E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C00C8B6920EC6CE700EA9E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C00C8B6B20EC6CE700EA9E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G687LKP7Q7;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"(non-recursive)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/include,
+					/usr/local/include,
+					"$(inherited)",
+					"$(PROJECT_DIR)/libevhtp/libevent/lib/ios/libevent",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-levent",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/include;
+				USER_HEADER_SEARCH_PATHS = /usr/include;
+			};
+			name = Debug;
+		};
+		C00C8B6C20EC6CE700EA9E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G687LKP7Q7;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					"(non-recursive)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/include,
+					/usr/local/include,
+					"$(inherited)",
+					"$(PROJECT_DIR)/libevhtp/libevent/lib/ios/libevent",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-levent",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/include;
+				USER_HEADER_SEARCH_PATHS = /usr/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00C8B5E20EC6CE700EA9E07 /* Build configuration list for PBXProject "libevhtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00C8B6820EC6CE700EA9E07 /* Debug */,
+				C00C8B6920EC6CE700EA9E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00C8B6A20EC6CE700EA9E07 /* Build configuration list for PBXNativeTarget "libevhtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00C8B6B20EC6CE700EA9E07 /* Debug */,
+				C00C8B6C20EC6CE700EA9E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00C8B5B20EC6CE700EA9E07 /* Project object */;
+}
